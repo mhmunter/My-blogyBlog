@@ -1,6 +1,9 @@
 # Logsnode_modules
+node_modules
 .env
 .DS_Store
+
+
 logs
 *.log
 npm-debug.log*
