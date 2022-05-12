@@ -1,7 +1,7 @@
 <article class="post">
   <div class="title">
-    <h1>{{title}}</h1>
-    <span>({{comment_text}})</span>
+    <h1 id = "topLine">{{title}}</h1>
+    <h3>{{comment_text}}</h3>
   </div>
   <div class="meta">
     {{vote_count}} {{format_plural "point" vote_count}} by {{user.username}} on {{format_date created_at}}

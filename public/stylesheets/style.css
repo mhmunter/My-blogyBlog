@@ -9,6 +9,7 @@ html {
   margin: 0;
   font-family: sans-serif;
   color: #333;
+  background-color: lightgreen;
 }
 
 a {
@@ -75,6 +76,7 @@ form label {
   margin: 0 auto;
   display: flex;
   flex-direction: column;
+  //border: 1px solid red;
 }
 
 header {
@@ -87,6 +89,8 @@ header {
 
 header h1 {
   font-size: 1em;
+  background-color: brown;
+  border: 1px solid #333;
 }
 
 main {
@@ -123,13 +127,20 @@ main {
 .post {
   margin-bottom: 2%;
   line-height: 150%;
+  border: 1px solid black;
 }
 
-.post .title span {
-  font-style: italic;
-  font-size: 90%;
+.post .title {
+  border:2px solid #333;
+  font-style: bold;
+  font-size: 120%;
   color: #7d7d7d;
 }
+#topLine{
+  background-color: black;
+  
+}
+
 
 .edit-link {
   display: block;
@@ -177,5 +188,5 @@ footer {
   display: flex;
   justify-content: center;
   padding: 1%;
-  font-size: 110%;
+  font-size: 90%;
 }
