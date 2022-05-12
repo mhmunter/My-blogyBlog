@@ -13,7 +13,7 @@ class Post extends Model {
         },
         attributes: [
           "id",
-          "content",
+          "comment_text",
           "title",
           "created_at",
           [
@@ -57,9 +57,12 @@ Post.init(
       type: DataTypes.STRING,
       allowNull: false,
     },
-    content: {
+    comment_text: {
       type: DataTypes.STRING,
       allowNull: false,
+      validate: {
+        len: [1],
+      },
     },
     user_id: {
       type: DataTypes.INTEGER,
