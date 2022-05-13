@@ -76,7 +76,6 @@ form label {
   margin: 0 auto;
   display: flex;
   flex-direction: column;
-  //border: 1px solid red;
 }
 
 header {
@@ -84,13 +83,16 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0 1%;
+  padding: 0;
+  height: 100%;
 }
 
-header h1 {
+h1 {
   font-size: 1em;
-  background-color: brown;
+  background-color: black;
   border: 1px solid #333;
+  background-size: cover;
+  height: 150%;
 }
 
 main {
@@ -126,21 +128,18 @@ main {
 
 .post {
   margin-bottom: 2%;
-  line-height: 150%;
+  line-height: 250%;
+
   border: 1px solid black;
 }
 
 .post .title {
-  border:2px solid #333;
+  margin: 0;
+  border: 2px solid #333;
   font-style: bold;
   font-size: 120%;
   color: #7d7d7d;
 }
-#topLine{
-  background-color: black;
-  
-}
-
 
 .edit-link {
   display: block;
@@ -189,4 +188,9 @@ footer {
   justify-content: center;
   padding: 1%;
   font-size: 90%;
+}
+
+div.title h1 {
+  background-color: black;
+  height: 100%;
 }
