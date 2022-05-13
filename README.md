@@ -13,7 +13,7 @@
 [Image of project](https://github.com/mhmunter/My-blogyBlog/blob/main/myblogyblogPIC.png)
 
 ## **Link**
-[link to project](https://mighty-castle-61751.herokuapp.com/)
+[link to project](https://myblogyblog222.herokuapp.com/)
 
 ## **Questions:**
 mhmunter@yahoo.com
