@@ -10,7 +10,7 @@
 
 
  ## **Screen Shot**
-[Image of project](https://github.com/mhmunter/noteFactory/blob/main/noteFactoryPic.png)
+[Image of project](https://github.com/mhmunter/My-blogyBlog/blob/main/myblogyblogPIC.png)
 
 ## **Link**
 [link to project](https://mighty-castle-61751.herokuapp.com/)
