@@ -3,16 +3,20 @@ const express = require('express');
 const session = require('express-session');
 const exphbs = require('express-handlebars');
 
-// const app = express();
-// const PORT = process.env.PORT || 3001;
+const app = express();
+const PORT = process.env.PORT || 3001;
 
 const sequelize = require("./config/connection");
 const SequelizeStore = require('connect-session-sequelize')(session.Store);
-const sequelize = new Sequelize(process.env.DB_NAME, process.env.DB_USER, process.env.DB_PASSWORD, {
-  host: 'localhost',
-  dialect: 'mysql',
-  port: 3306
-});
+
+// const sequelize = require("./config/connection");
+// const SequelizeStore = require('connect-session-sequelize')(session.Store);
+// const sequelize = new Sequelize(process.env.DB_NAME, process.env.DB_USER, process.env.DB_PASSWORD, {
+//   host: 'localhost',
+//   dialect: 'mysql',
+//   port: 3306
+// });
+
 
 const sess = {
   secret: 'Super secret secret',
@@ -39,6 +43,11 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 app.use(require('./controllers'));
 
+// sequelize.sync({ force: false }).then(() => {
+//   app.listen(PORT, () => console.log('Now listening'));
+// });
 sequelize.sync({ force: false }).then(() => {
-  app.listen(PORT, () => console.log('Now listening'));
+  app.listen(PORT, () => {
+    console.log(`Now listening on port ${PORT}`);
+  });
 });
