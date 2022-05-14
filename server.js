@@ -19,7 +19,7 @@ const SequelizeStore = require('connect-session-sequelize')(session.Store);
 
 
 const sess = {
-  secret: 'Super secret secret',
+  secret: 'Super secret squirrel',
   cookie: {},
   resave: false,
   saveUninitialized: true,
