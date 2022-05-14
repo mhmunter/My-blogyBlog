@@ -17,7 +17,7 @@ const SequelizeStore = require('connect-session-sequelize')(session.Store);
 //   port: 3306
 // });
 
-
+const mark = "my bad"
 const sess = {
   secret: 'Super secret squirrel',
   cookie: {},
