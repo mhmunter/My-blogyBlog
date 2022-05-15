@@ -2,40 +2,40 @@ const { Post } = require("../models");
 
 const postdata = [
   {
-    title: "Donec posuere metus vitae ipsum.",
-    comment_text: "https://buzzfeed.com/in/imperdiet/et/commodo/vulputate.png",
+    title: "Playstation is the best console.",
+    comment_text: "Metal Gear solid",
     user_id: 10,
   },
   {
-    title: "Morbi non quam nec dui luctus rutrum.",
-    comment_text: "https://nasa.gov/donec.json",
+    title: "Sega is the best console.",
+    comment_text: "SONIC!!!",
     user_id: 8,
   },
   {
     title:
-      "Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue.",
+      "Super Nintendo is the best console.",
     comment_text:
-      "https://europa.eu/parturient/montes/nascetur/ridiculus/mus/etiam/vel.aspx",
+      "MARIO!!!!!",
     user_id: 1,
   },
   {
-    title: "Nunc purus.",
-    comment_text: "http://desdev.cn/enim/blandit/mi.jpg",
+    title: "Sega Saturn is the best console.",
+    comment_text: "Panzer Dragon",
     user_id: 4,
   },
   {
-    title: "Pellentesque eget nunc.",
-    comment_text: "http://google.ca/nam/nulla/integer.aspx",
+    title: "Nintendo Switch is the best console.",
+    comment_text: "Mario Cart.",
     user_id: 7,
   },
   {
-    title: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit.",
-    comment_text: "https://stanford.edu/consequat.png",
+    title: "Atari is the best console.",
+    comment_text: "PONG!",
     user_id: 4,
   },
   {
-    title: "In hac habitasse platea dictumst.",
-    comment_text: "http://edublogs.org/non/ligula/pellentesque.js",
+    title: "Atari Jaguar is the best console.",
+    comment_text: "Aliens vs Preditor.",
     user_id: 1,
   },
   {
